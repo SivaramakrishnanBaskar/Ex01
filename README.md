@@ -47,6 +47,7 @@ Y= A⊕B
 The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will give a low output if either, but not both of its two inputs are high. The symbol is an EX-OR gate with a small circle on the output. The small circle represents inversion.
 
 Y= A⊕B
+
 Procedure
 1.Connect the supply (+5V) to the circuit.
 2.Switch ON the main switch.
@@ -54,7 +55,6 @@ Procedure
 4.If the output is 1, then the bulb glows.
 5.Check all the gates following the same procedure.
 Program:
-
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: NAVIN KUMAR J
 RegisterNumber: 22009212
