@@ -1,11 +1,12 @@
-# Ex01
-Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization
+# Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization
 
 # AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 # Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher. Software – Quartus prime.
+
+# Theory 
 
 # Introduction
 
@@ -57,37 +58,26 @@ Y= A⊕B
 # 5.Check all the gates following the same procedure.
 
 # Program:
-
+```
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-
 Developed by: Sivaramakrishnan B 
-
 RegisterNumber: 22006798
-
 module Gates(a,b,p,q,r,w,x,y,z);
-
 input a,b;
-
 output p,q,r,x,w,y,z;
-
 and(p,a,b);
-
 or(q,a,b);
-
 not(r,a);
-
 nand(w,a,b);
-
 nor(x,a,b);
-
 xor(y,a,b);
-
 xnor(z,a,b);
-
 endmodule 
+```
 
 # Output 
-
+![newrtl](https://user-images.githubusercontent.com/119476322/215159158-d5610c1c-fc26-489f-a81d-f257f1d22fe6.png)
+![newtmd](https://user-images.githubusercontent.com/119476322/215159183-6715688c-061b-46e8-9481-d2e5ed2317da.png)
 
 # Result 
-Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
+the different digital IC’s are studied and the truth table for different logic gates are verified.
